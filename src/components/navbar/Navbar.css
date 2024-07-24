@@ -1,0 +1,29 @@
+:root{
+    --themelight: rgb(207, 204, 204);
+    --themedark: rgb(54, 53, 53);
+}
+nav{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--themedark);
+    color: white;
+    align-items: center;
+}
+/* nav img{
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+} */
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 100px;
+    align-items: center;
+    cursor: pointer;
+}
+nav ul li input{
+    background-color: rgba(255, 255, 255, 0.068);
+}
