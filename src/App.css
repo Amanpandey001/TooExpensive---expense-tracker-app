@@ -1,0 +1,21 @@
+ol li{
+    list-style-type: decimal;
+    margin: 5px 15px;
+    font-weight: bold;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: ease 0.2s;
+    border-radius: 3px;
+}
+ol li:hover{
+    background-color: rgb(121, 120, 120);
+    text-decoration: underline;
+}
+
+.container{
+    max-height: 86.5vh;
+    overflow: auto;
+    max-width: 50vw;
+    scrollbar-width: thin;
+}

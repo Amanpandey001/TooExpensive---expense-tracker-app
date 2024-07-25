@@ -23,7 +23,32 @@ nav ul{
     margin-right: 100px;
     align-items: center;
     cursor: pointer;
+    background-color: transparent;
 }
 nav ul li input{
     background-color: rgba(255, 255, 255, 0.068);
+}
+.menu-extend{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+.menu-extend ul li input{
+    background-color: rgb(26, 25, 25);
+}
+@media screen and (max-width: 768px) {
+    
+    nav ul{
+        display: none;
+    }
+    .menu-extend ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }

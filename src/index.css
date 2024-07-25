@@ -6,4 +6,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(32, 32, 32);
+    color: white;
 }
+@layer components {
+    .no-arrows {
+      /* For Chrome, Safari, Edge, Opera */
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        @apply appearance-none;
+        margin: 0;
+      }
+    }
+  }
