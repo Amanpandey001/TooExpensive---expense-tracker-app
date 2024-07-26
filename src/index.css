@@ -8,6 +8,8 @@
     box-sizing: border-box;
     background-color: rgb(32, 32, 32);
     color: white;
+    scrollbar-width: thin;
+    scrollbar-color: #646464 #f1f1f100;
 }
 @layer components {
     .no-arrows {
