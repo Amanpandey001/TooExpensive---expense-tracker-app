@@ -17,3 +17,6 @@ you can also use
 npm run dev -- --host
 ```
 to run your file for both pc and phone
+
+
+## Partially Completed, I want to add a history section and some features, but i will add it later after completing my ongoing course
